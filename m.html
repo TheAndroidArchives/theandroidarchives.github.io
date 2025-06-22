@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html savelang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta charset="UTF-8">
+  <title>Market Reborn</title>
+  <link rel="stylesheet" href="/css/home.css">
+  <style>
+  #testright {
+         background-color: black;
+         }
+         #testleft {
+        background-image: url('/assets/appbtnbg.png');
+  background-size: 100% 100%; /* Stretch the image to 100% width and 100% height */
+  background-repeat: no-repeat; /* Don't repeat the image */
+  background-position: center center; /* Center the image */
+         }
+          .buttonidk {
+        margin: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-weight: 700;
+    background-repeat: no-repeat;
+    background-position: calc(100% + 10px) center;
+    background-size: contain;
+    border: 0;
+    border-left: solid 15px;
+    top: 0px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    height: 25%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+
+    /* Align text to the left and move it onto the border */
+    text-align: left;  /* Align text to the left */
+    position: relative; /* Allow text movement */
+
+         }
+      
+
+             .apps {
+          
+                    
+  background-image: url('//market.ct8.pl/assets/androidappsicon.png');
+
+  border-left-color: #98A752;
+  }
+      .games {
+              background-image: url('//market.ct8.pl/assets/soonicon.png'); /* Set the image as background */
+        
+  border-left-color: #CF8143;
+  }
+       .req {
+              background-image: url('//market.ct8.pl/assets/requesticon.png'); /* Set the image as background */
+        
+  border-left-color: #4C91BF;
+  }
+       .wall {
+           
+              
+  border-left-color: #5964A5;
+  }
+       .about {
+              background-image: url('//market.ct8.pl/assets/infoicon.png'); /* Set the image as background */
+      
+  border-left-color: #A8514F;
+  }
+   
+  </style>
+</head>
+<body>
+  <div class="center"></div>
+  <div id="screen">
+    <div id="topbar">
+      <img id="icon" src="//market.ct8.pl/favicon.png" alt="favicon">
+      <div id="title">
+        Market Reborn
+      </div>
+    </div><img src="/assets/mr-banner-public-release.png" alt="banner1" width="100%">
+    <div id="testcontainer">
+      <div class="btn-container" id="testleft">
+        <input type="button" class="apps buttonidk custom-button" onclick="location.href='/apps.php';" value="Apps"><br>
+        <input type="button" class="games buttonidk custom-button" onclick="location.href='/';" value="Coming Soon"><br>
+        <input type="button" class="req buttonidk custom-button" onclick="location.href='/req.html';" value="Request"><br>
+        <input type="button" class="about buttonidk custom-button" onclick="location.href='/about.html';" value="About">
+      </div>
+      <div id="testright">
+        <div class="container-home-bannerbutton">
+          <a href="/games.php"><img src="//market.ct8.pl/assets/gamesicn.png" alt="banner2" width="100%"></a> 
+          <a href="/discord.html"><img src="//market.ct8.pl/assets/discordicn.png" alt="banner2" width="100%"><br></a>
+          <a href="/app_detail.php?name=Fruit+Ninja+Free"><img src="//market.ct8.pl/assets/fruitninjabanner.jpg" alt="banner2" width="100%"></a>
+      </div>
+    </div>
+  </div><a href="/app_detail.php?name=Cut+The+Rope"><img src="//market.ct8.pl/assets/ctrbanner.jpg" alt="banner1" width="100%"></a>
+</body>
+</html>
